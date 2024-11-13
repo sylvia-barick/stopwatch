@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Minimalist Stopwatch</h1>
+    </header>
+
+    <main class="container">
+        <section class="stopwatch">
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+
+            <div class="buttons">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn">Pause</button>
+                <button id="reset-btn">Reset</button>
+                <button id="lap-btn">Lap</button>
+            </div>
+        </section>
+
+        <section class="laps">
+            <h2>Lap Times</h2>
+            <ul id="lap-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Stopwatch App © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
